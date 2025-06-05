@@ -46,7 +46,7 @@ const Carousel = () => {
     },
     {
       src: '/certs/Aws.png',
-      title: 'CSA Star',
+      title: 'AWS',
       desc: 'Cloud Security Assurance',
       bg: 'from-lime-700 to-green-800',
     },

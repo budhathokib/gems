@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const Carousel = () => {
   const images = [
     {
-      src: '/certs/Iso.png', // Update path if needed (e.g., /images/ if in public/images)
+      src: '/certs/Iso.png', 
       title: 'ISO 27001',
       desc: 'International Security Standard',
       bg: 'from-blue-800 to-indigo-900',
@@ -40,7 +40,7 @@ const Carousel = () => {
     },
     {
       src: '/certs/Csa.png',
-      title: 'NIST Framework',
+      title: 'CSA',
       desc: 'Certified Security Analyst',
       bg: 'from-indigo-700 to-blue-900',
     },
@@ -103,7 +103,7 @@ const Carousel = () => {
                     alt={item.title}
                     className="w-32 h-32 object-contain rounded-xl"
                     onError={(e) => {
-                      e.target.src = '/images/fallback.png'; // Fallback image if the main image fails to load
+                      e.target.src = '/images/fallback.png';
                     }}
                   />
                 </div>

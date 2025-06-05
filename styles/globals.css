@@ -2,12 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Regular CSS */
+/* Custom styles for h1 */
 h1 {
-  background-color: ;
+  background-color: white; /* Fixed: Added a valid value; use transparent or a specific color */
+  font-family: 'Inter', sans-serif; /* Modern font stack for consistency */
+  font-weight: 800; /* Matches the bold typography in AboutUs.jsx */
+  color: #1f2937; /* Tailwind's gray-900 for consistency */
 }
 
-/* Using @apply for Tailwind CSS classes */
+/* Custom button styles using @apply */
 button {
-  @apply px-4 py-2 bg-cyan-400 hover:bg-slate-100 active:bg-cyan-200;
+  @apply px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full shadow-md hover:shadow-lg hover:from-blue-600 hover:to-blue-700 active:from-blue-700 active:to-blue-800 transition-all duration-300 transform hover:scale-105;
+}
+
+/* Optional: Additional custom styles for consistency with AboutUs.jsx */
+@layer components {
+  .section-heading {
+    @apply text-5xl font-extrabold text-gray-900 tracking-tight;
+  }
+  .section-subtext {
+    @apply text-xl text-gray-600 leading-relaxed font-light;
+  }
+  .highlight-text {
+    @apply font-semibold text-blue-600;
+  }
 }

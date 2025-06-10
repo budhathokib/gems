@@ -158,26 +158,7 @@ const Carousel = () => {
         </div> */}
       </div>
 
-      <div className="mt-10 max-w-2xl">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div className="bg-gray-800/50 p-4 rounded-lg text-center">
-            <div className="text-2xl font-bold text-white">{images.length}</div>
-            <div className="text-gray-300 text-sm">Certifications</div>
-          </div>
-          <div className="bg-gray-800/50 p-4 rounded-lg text-center">
-            <div className="text-2xl font-bold text-white">100%</div>
-            <div className="text-gray-300 text-sm">Compliance Rate</div>
-          </div>
-          <div className="bg-gray-800/50 p-4 rounded-lg text-center">
-            <div className="text-2xl font-bold text-white">24/7</div>
-            <div className="text-gray-300 text-sm">Security Monitoring</div>
-          </div>
-          <div className="bg-gray-800/50 p-4 rounded-lg text-center">
-            <div className="text-2xl font-bold text-white">Global</div>
-            <div className="text-gray-300 text-sm">Recognition</div>
-          </div>
-        </div>
-      </div>
+      {/*  */}
     </div>
   );
 };

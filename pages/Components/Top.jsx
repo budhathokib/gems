@@ -29,7 +29,7 @@ const Top = () => {
           <div className="relative flex justify-center lg:justify-end mt-8 lg:mt-0 animate-fade-in-right">
             <div className="relative w-full max-w-md lg:max-w-lg">
               <img
-                src="/Top.jpeg"
+                src="/Office.jpeg"
                 alt="Cybersecurity Illustration"
                 className="w-full rounded-2xl shadow-2xl border border-gray-700 object-cover transform hover:scale-105 transition-transform duration-500"
                 onError={(e) => {

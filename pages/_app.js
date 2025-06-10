@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
       <Header />
       <Top/>
       <Gems/>
-      <Carousel/>
+      
       <Cybersec/>
       <Included/>
       <What/>
@@ -27,6 +27,7 @@ export default function App({ Component, pageProps }) {
       <Faq/>
       <Component {...pageProps} />
       <AboutUs/>
+      <Carousel/>
       <Blog/>
       <Footer />
     </>

@@ -150,10 +150,16 @@ const GEMSCombinedSection = () => {
                 </li>
               ))}
             </ul>
-            <button className="mt-8 px-10 py-4 bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-bold rounded-xl shadow-lg hover:shadow-xl hover:shadow-blue-500/50 transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 relative overflow-hidden group">
-              <span className="relative z-10">Secure Your Business Now</span>
-              <div className="absolute inset-0 bg-blue-700/20 rounded-xl blur-sm group-hover:blur-md transition-all duration-300"></div>
-            </button>
+            <a
+      href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3D_wkQ5OP1P1VIWpvkGefhVr_BpkDe0mJ3JYKflJle2WWwbDhqoJzzvs0No8wp4tZCpPFZs4TY"
+      className="relative inline-block group"
+      aria-label="Secure your business by contacting us"
+    >
+      <button className="relative px-6 py-3 text-lg font-semibold text-white bg-blue-700 rounded-xl overflow-hidden group-hover:bg-blue-800 transition-all duration-300">
+        <span className="relative z-10">Secure Your Business Now</span>
+        <div className="absolute inset-0 bg-blue-700/20 rounded-xl blur-sm group-hover:blur-md transition-all duration-300"></div>
+      </button>
+    </a>
           </div>
         </div>
 
@@ -180,7 +186,7 @@ const GEMSCombinedSection = () => {
 <div ref={officeRef} className="flex flex-col items-center gap-6 z-10">
   <div className="w-32 h-32 bg-blue-200 rounded-md flex justify-center items-center shadow-lg hover:scale-105 transition-transform duration-300">
     <img
-      src="/Office.png" // Placeholder for Office image
+      src="/SME.jpg" // Placeholder for Office image
       alt="Office"
       className="w-full h-full object-cover rounded-md"
       onError={(e) => {

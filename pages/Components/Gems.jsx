@@ -33,7 +33,7 @@ const Gems = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <a
-            href="https://calendly.com/event_types/user/me"
+            href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3D_wkQ5OP1P1VIWpvkGefhVr_BpkDe0mJ3JYKflJle2WWwbDhqoJzzvs0No8wp4tZCpPFZs4TY"
             className="bg-gradient-to-r from-orange-500 to-orange-700 hover:from-orange-600 hover:to-orange-800 text-white text-base sm:text-lg font-semibold py-3 px-8 rounded-full shadow-md transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
           >
             Speak to a Security Specialist

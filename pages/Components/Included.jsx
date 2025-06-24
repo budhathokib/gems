@@ -47,7 +47,7 @@ const Gems = () => {
       color: 'from-violet-500 to-purple-400'
     },
     {
-      name: 'Proactive Threat Monitoring',
+      name: 'Proactive Threat Intelligence',
       description: 'Stay ahead of threats with preemptive detection and response.',
       icon: '/icons/Proactive.png',
       color: 'from-lime-500 to-green-400'
@@ -97,7 +97,7 @@ const Gems = () => {
             </div>
 
             <a
-              href="https://calendly.com/event_types/user/me"
+              href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3D_wkQ5OP1P1VIWpvkGefhVr_BpkDe0mJ3JYKflJle2WWwbDhqoJzzvs0No8wp4tZCpPFZs4TY"
               className="relative overflow-hidden inline-flex items-center justify-center bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold text-lg py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/30 group"
             >
               <span className="relative z-10">Speak to a Security Specialist</span>
@@ -150,7 +150,7 @@ const Gems = () => {
           </div>
         </div>
 
-        {/* Testimonial*/}
+        {/* Testimonial */}
         <div className="mt-20 max-w-4xl mx-auto bg-blue-800/40 backdrop-blur-sm rounded-2xl border border-blue-700/30 p-8 md:p-10 relative overflow-hidden">
           <div className="absolute -top-10 -right-10 w-32 h-32 bg-cyan-500/10 rounded-full filter blur-2xl"></div>
           <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-blue-500/10 rounded-full filter blur-2xl"></div>
@@ -171,7 +171,6 @@ const Gems = () => {
             </p>
 
             <div className="flex items-center">
-              <div className="bg-gray-200 border-2 border-dashed rounded-xl w-12 h-12" />
               <div className="ml-4">
                 <p className="font-medium text-white">Niranjan Kunwar</p>
                 <p className="text-sm text-blue-300">CTO at Genese Solution</p>

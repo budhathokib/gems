@@ -138,12 +138,12 @@ const WhyUs = () => {
         </div>
         
         <div className={`mt-16 text-center transform transition-all duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-          <button className="px-8 py-4 bg-gradient-to-r from-gray-700 to-gray-900 text-white font-bold rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group">
-            <span className="relative z-10">Get Started Today</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-gray-600 to-gray-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="absolute top-0 left-0 w-full h-0.5 bg-gray-400 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500"></div>
-          </button>
-        </div>
+  <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3D_wkQ5OP1P1VIWpvkGefhVr_BpkDe0mJ3JYKflJle2WWwbDhqoJzzvs0No8wp4tZCpPFZs4TY" className="px-8 py-4 bg-gradient-to-r from-gray-700 to-gray-900 text-white font-bold rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group inline-block">
+    <span className="relative z-10">Get Started Today</span>
+    <div className="absolute inset-0 bg-gradient-to-r from-gray-600 to-gray-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    <div className="absolute top-0 left-0 w-full h-0.5 bg-gray-400 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500"></div>
+  </a>
+</div>
       </div>
     </section>
   );

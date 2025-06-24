@@ -44,7 +44,7 @@ const Blog = ({ sectionRefs }) => {
       image: "Sec2.jpg",
       author: "Kritika Kapali",
       role: "Associate",
-      authorImage: "K.png",
+      authorImage: "Kritika.jpeg",
       date: "2022-09-20",
     },
     {

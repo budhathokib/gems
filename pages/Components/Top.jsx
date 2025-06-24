@@ -16,7 +16,7 @@ const Top = () => {
             </p>
           <div className="flex space-x-4">
   <a
-    href="Gems" // Replace with your actual target section or external URL
+    href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3D_wkQ5OP1P1VIWpvkGefhVr_BpkDe0mJ3JYKflJle2WWwbDhqoJzzvs0No8wp4tZCpPFZs4TY" // Replace with your actual target section or external URL
     className="px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-teal-500 to-blue-600 rounded-full hover:from-teal-600 hover:to-blue-700 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-teal-500/50"
   >
     Get Started

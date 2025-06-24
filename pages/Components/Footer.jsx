@@ -20,7 +20,7 @@ const Footer = () => {
 
           <ul className="mt-8 space-y-1 text-sm">
             <li>Monday to Friday<br />8am - 6pm</li><br />
-            <li>Contact<br />cybersecurity@genesesolution.com<br />(123) 456-7890</li>
+            <li>Contact<br /> sales@genesesolution.com<br />(123) 456-7890</li>
           </ul>
 
           <ul className="mt-8 flex gap-6">
